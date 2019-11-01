@@ -2,7 +2,7 @@
 <ul>
     <% @kittens.each do |k| %>
       <li>
-        <p> Name: <%= k.name %></p>
+        <p> Name: <%= k.name %> | <%= link_to "Delete", k, method: :delete %>  </p>
       </li>
     <% end %>
 </ul>
