@@ -27,7 +27,7 @@ class KittensController < ApplicationController
 
   def update
     @kitten = Kitten.find(params[:id])
-    if @kitten.udpate(kitten_params)
+    if @kitten.update(kitten_params)
       redirect_to root_url
     else
       render 'edit'
