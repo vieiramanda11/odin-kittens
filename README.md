@@ -1,24 +1,25 @@
-# README
+# Building a Simple Kittens API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a [project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis?ref=lnav#your-task-1) from [The Odin Project](https://www.theodinproject.com/) where I set up a Rails app to be a data-producing API.
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems:
 
-* System dependencies
+```
+$ bundle install --without production
+```
 
-* Configuration
+Next, migrate the database:
 
-* Database creation
+```
+$ rails db:migrate
+```
 
-* Database initialization
+```
+$ rails server
+```
 
-* How to run the test suite
+## Author's name
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Amanda](https://github.com/vieiramanda11)
