@@ -1,10 +1,11 @@
 <h1 align="center">All kittens</h1>
-<ul align="center">
-  <li>
-    <%= @kittens.each do |k| %>
-    <p><%= k.name %></p>
-    <p><%= k.age %></p>
-    <p><%= k.cuteness %></p>
-    <p><%= k.softness %></p>
-  </li>
+<ul>
+    <% @kittens.each do |k| %>
+      <li>
+        <p> Name: <%= k.name %></p>
+        <p> Age: <%= k.age %></p>
+        <p>Level of cuteness: <%= k.cuteness %></p>
+        <p>Level of softness: <%= k.softness %></p>
+      </li>
+    <% end %>
 </ul>
