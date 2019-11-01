@@ -16,6 +16,8 @@ Next, migrate the database:
 $ rails db:migrate
 ```
 
+Then, run the server:
+
 ```
 $ rails server
 ```
